@@ -188,7 +188,7 @@ abstract class Command implements CommandInterface
     /**
      * {@inheritdoc}
      */
-    abstract public function handle();
+    abstract public function handle(...$args);
 
     /**
      * Helper to Trigger other Commands.
